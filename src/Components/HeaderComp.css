@@ -1,0 +1,49 @@
+#main{
+    display: flex;
+    width: 100%;
+    background-size: cover;
+    margin: 0 auto;
+    flex-direction: column;
+}
+#veglogo{
+  margin: 2rem 1rem;
+  height: 6rem;
+  width: 6rem;
+  box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+#content{
+    text-align: left;
+    color:#fff; 
+}
+#content p{
+    font-size:12px;
+}
+#name{
+    font-size:21px;
+    color: white;
+    font-weight: bold;
+    padding-top: 32px;
+}
+.starstyle{
+    font-size: 12px;
+}
+.searchbarstyle{
+    border: none;
+}
+.searchIconStyle{
+    color:gray;
+    position: relative;
+    left: 103px;
+}
+.HeadFoodContainer{
+    width: 100%;
+    display:flex;
+}
+.SearchBar{
+    background: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width:90%;
+    margin-left:0.5rem;
+}
