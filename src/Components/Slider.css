@@ -1,8 +1,11 @@
 .sliderFoodContainer{
-    display: flex;
-    margin-right: 1rem;
+    /* display: flex;
     overflow-x: scroll;
     width: 100%;
+    margin-top: 30px; */
+    display: flex;
+    overflow-x: scroll;
+    padding-top: 1rem;
 }
 .food1Style{
     /* border-radius: 20px;

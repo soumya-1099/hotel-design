@@ -12,11 +12,11 @@ export default function Slider(props) {
     return (
         <div className = "sliderFoodContainer">
             <SliderFood foodImg = {todaysSplImg} foodName = "Today's Special"/>
-            <SliderFood foodImg = {mealsImg} foodName = "Meals"/>
-            <SliderFood foodImg = {soupImg} foodName = "Soup"/>
+            <SliderFood foodImg = " https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hojrkacmz00pzghf9uj6"foodName = "Meals"/>
+            <SliderFood foodImg = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ldxfhooh2esmzu7y5ou5" foodName = "Soup"/>
             <SliderFood foodImg = {mainCourse1Img} foodName = "Main course"/>
-            <SliderFood foodImg = {dessertImg} foodName = "Dessert"/>
-            <SliderFood foodImg = {mainCourse2Img} foodName = "Main Course"/>
+            <SliderFood foodImg = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ronuvrugbh9dgoifgs3f" foodName = "Dessert"/>
+            <SliderFood foodImg = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wjjsfrjlsbseuzguxa7d" foodName = "Main Course"/>
             </div>
     )
 }

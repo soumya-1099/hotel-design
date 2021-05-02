@@ -1,28 +1,18 @@
-.imageOuter{
-    padding: 25px;
-    background-size: cover !important;
-    border-radius: 50%;
-    /* border: 10px black; */
-    margin-top: 40px;
-}
-
-.foodContainer{
-    width: 25%;
+.mainContainer{
     display: flex;
-    
+    padding-left: 0.5rem;
 }
-
-.lineDesign{
-    height: 1px;
-   background-color: #bcbcbc;
+.items{
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 86.84%;
+    font-family: Nunito Sans;
 }
-.imageContainer{
-    /* padding-left: 0.5rem; */
-    /* border: 1px solid red; */
-    padding: 0 2rem;
-    /* padding-right: 1rem; */
-    /* text-align: center; */
-}
-.foodName{
-    /* display: flex; */
+.foodImage{
+    width: 5rem;
+    padding: 0.2rem 0.8rem;
+    border-radius: 50%;
 }
