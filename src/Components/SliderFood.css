@@ -16,3 +16,9 @@
     padding: 0.2rem 0.8rem;
     border-radius: 50%;
 }
+.lineDesign{
+    /* height: 1px; */
+    /* background-color: #bcbcbc; */
+    border-bottom: 0.5px solid #d4d5d9;
+    padding : 0 10px
+}

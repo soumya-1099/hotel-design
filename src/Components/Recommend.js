@@ -1,22 +1,26 @@
 import React from 'react'
 import './Recommend.css'
-import {UpOutlined } from "@ant-design/icons";
 import RecommendFood from './RecommendFood'
-// import dosaImg from '../images/Dosa.jpg'
-// import ragiImg from '../images/RagiDosa.jpg'
-// import idliImg from '../images/PodaIdli.jpg'
-// import rollImg from'../images/RotiRoll.jpg'
-
-import {StarFilled} from "@ant-design/icons";
+import {UpOutlined} from "@ant-design/icons";
+import dosaImg from '../images/Dosa.jpg'
+import ragiImg from '../images/RagiDosa.jpeg'
+import idliImg from '../images/PodaIdli.jpg'
+import rollImg from'../images/RotiRoll.jpg'
 
 export default function Recommend(props) {
     return (
         <div className = "recommendContainer">
-            {/* <RecommendFood scrollImg = {dosaImg} name = "Mysore Dosa" /> */}
-            {/* <RecommendFood scrollImg = {ragiImg} /> */}
-            {/* <RecommendFood scrollImg = {idliImg} /> */}
-            {/* <RecommendFood scrollImg = {rollImg} /> */}
+             <div className = "textName">
+                <h4>Recommend(5)</h4>
+                <UpOutlined className = "upOutline"></UpOutlined>
+            </div>
 
+            <RecommendFood itemName = "Mysore Masala Dosa" foodPrice = "90 ₹" foodImage = {dosaImg}/>
+            <RecommendFood itemName = "Ragi Masala Dosa" foodPrice = "60 ₹" foodImage = {ragiImg}/>
+            <RecommendFood itemName = "Podi Idli" foodPrice = "80 ₹" foodImage = {idliImg}/>
+            <RecommendFood itemName = "Sizwaan Masala Dosa" foodPrice = "70 ₹" foodImage = {rollImg}/>
+
+            
         </div>
     )
 }
