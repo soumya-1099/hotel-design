@@ -1,8 +1,8 @@
 import React from 'react'
-import './RecommendFood.css'
+import './FoodItem.css'
 import {StarFilled } from "@ant-design/icons";
 
-export default function RecommendFood(props) {
+export default function FoodItem(props) {
     return (
         <div className = "recommendFoodConatiner">
            

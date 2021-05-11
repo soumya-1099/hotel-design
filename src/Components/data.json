@@ -1,0 +1,38 @@
+[
+    {
+      "veg":false,
+      "rating": "Bestseller",
+      "itemname": "Dosa",
+      "price": "90",
+      "imgLink": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/wya5kg7wxvbh5opfpo1m"
+    },
+    {
+      "veg":false,
+      "rating": "Best seller",
+      "itemname": "Meals",
+      "price": "100",
+      "imgLink": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/vtdzuwjoykz7o8polks4"
+    },
+    {
+      "veg":true,
+      "rating": "Best eller",
+      "itemname": "Veg Biryani",
+      "price": "50",
+      "imgLink": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tmygtt8zkkqa3ppzxcxg"
+    },
+    {
+      "veg":true,
+      "rating": "Best seller",
+      "itemname": "Dosa",
+      "price": "175",
+      "imgLink": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/wya5kg7wxvbh5opfpo1m"
+    },
+    {
+      "veg":true,
+      "rating": "Best seller",
+      "itemname": "Veg Biryani",
+      "price": "50",
+      "imgLink": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tmygtt8zkkqa3ppzxcxg"
+    }
+]
+  

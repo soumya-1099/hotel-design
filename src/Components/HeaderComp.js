@@ -1,14 +1,11 @@
 import React from 'react'
 import './HeaderComp.css'
 import HeadFoodItem from './HeadFoodItem'
-import Slider from './Slider'
 import { Input } from 'antd';
+import {SearchOutlined } from "@ant-design/icons";
 import img1 from '../images/HeadBckgnd.jpg'
 import img2 from '../images/VeggieLogo.jpg'
 
-
-import {SearchOutlined } from "@ant-design/icons";
-import Recommend from './Recommend';
 
 export default function HeaderComp() {
     return (
@@ -18,9 +15,6 @@ export default function HeaderComp() {
             <div className= "SearchBar">
             <Input className= "searchbarstyle" placeholder="Search for food items" />
             <SearchOutlined className = "searchIconStyle"/></div></div>
-            <Slider/>
-            <Recommend/>
-
         </div>
     )
 }
